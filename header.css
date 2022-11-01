@@ -1,7 +1,43 @@
-body{
-    background-color: #0f0b0f;
+a {
+    color: #b0daa8;
+    text-decoration: none;
 }
-p {
-    color: #e7e2e2;
-    text-align: center;
+body {
+    background-color: #100b0d;
+}
+.headerBar {
+    font-family: "BM Dohyeon";
+    word-spacing: 2em;
+    text-align: right;
+    position: relative;
+    top: 5%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #b0daa8;
+}
+.icon {
+    height: 50px;
+    top: 2%;
+    left: 2%;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+}
+.bg-image {
+    background-image: url("HeadingBG.JPG");
+    background-color: #100b0d;
+    height: 650px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg-name {
+    height: 250px;
+    top: 35%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
 }
