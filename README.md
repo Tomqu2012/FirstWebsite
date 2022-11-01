@@ -1,2 +1,1 @@
-# FirstWebsite
-My first website
+First website
