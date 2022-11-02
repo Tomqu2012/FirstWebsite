@@ -5,6 +5,18 @@ a {
 body {
     background-color: #100b0d;
 }
+h1 {
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+}
+p {
+    color: white;
+    font-family: Helvetica;
+    max-width: 10%;
+    left: 45%;
+    text-align: right;
+}
 .headerBar {
     font-family: "BM Dohyeon";
     word-spacing: 2em;
@@ -27,11 +39,12 @@ body {
     background-image: url("HeadingBG.JPG");
     background-color: #100b0d;
     height: 650px;
-    margin: 0;
-    background-position: center;
+    margin: -8px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
+    alignment: center;
 }
 .bg-name {
     height: 250px;
@@ -39,5 +52,6 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    object-fit: cover;
 
 }
