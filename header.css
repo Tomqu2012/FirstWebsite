@@ -86,5 +86,6 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #000001;
+  color: white
   padding: 20px;
 }
